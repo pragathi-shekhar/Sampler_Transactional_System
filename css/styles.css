@@ -1,0 +1,366 @@
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-size:20px; 
+    color:#464646;
+}
+
+/* Login Page  and Register Page CSS */
+
+.form-group{
+    display: block;
+    margin-left:10%;;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color:EFEFEF
+  }
+
+  .register-box-height{
+    height:690px;
+  }
+
+  .login-box-height{
+    height:425px;
+  }
+
+  .login-box{
+    margin: auto;
+    border-radius: 5px;
+    width: 375px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    color:#464646;
+    font-weight:bold;
+  }
+  .form-control{
+    width:284px;
+    height:44px;
+    border:2px solid grey;
+    border-radius:2px; 
+  }
+
+  .register-submit-button{
+    width : 295px;
+    height:44px;
+    border-radius: 3px;
+    background-color: #3a99d8;
+    border: 1px solid #2a9fd8;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .login-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .login-body{
+   font: 14px sans-serif; 
+   background-color: #FAFAFA;
+  }
+  
+  .login-button{
+    width: 290px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #3a99d8;
+    border: 1px solid #2a9fd8;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .submit-button{
+    width : 295px;
+    height:44px;
+    border-radius: 3px;
+    background-color: #3a99d8;
+    border: 1px solid #2a9fd8;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+  .errorMessage {
+    color: #FF0000;
+    display: inline-block;
+  }
+
+  .no-account-link{
+    color:#50A1DB; 
+    margin-left:20%;
+  }
+
+
+/* Profile Page CSS */
+.profile-body {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  width: 100%;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #5FC1B9;
+  padding: 4px 10px;
+}
+
+.header a {
+  float: left;
+  color: #B4E4E2;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #B4E4E2;
+}
+
+.header a.active {
+  color: #F1FbFB;
+  text-decoration: underline;
+}
+
+.header-right {
+  float: right;
+}
+
+.tablink {
+  cursor: pointer;
+}
+
+.tablink.active {
+  border-bottom: 1px solid #000;
+}
+
+.profile-logo {
+  margin: auto;
+  width: 35%;
+}
+
+.header-right {
+  margin: auto;
+  width: 35%;
+}
+
+.my-balance-main-div {
+  background: #F5F5F5;
+  padding-bottom: 40px;
+}
+
+.my-balance {
+  color: #949494;
+  padding-top: 45px;
+  margin: auto;
+  width: 70%;
+}
+
+.profile-h1 {
+  color: #5FC1B9;
+  margin: auto;
+  width: 70%;
+}
+
+.usersHeader {
+  color: #686868;
+  margin: auto;
+  width: 70%;
+  padding-top: 40px;
+}
+
+.tableHeader {
+  margin: auto;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.tableHeaderProfileDiv {
+  margin: auto;
+  background: #F5F5F5;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 190px
+}
+
+.my-profile {
+  color: #404040;
+  font-size: 38px;
+  padding-top: 45px;
+  margin: auto;
+  width: 70%;
+}
+
+.tableone {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    
+.cell-width{
+  width:1000px;
+}
+
+.tabcontent{
+  color:grey;
+  font-family: 'Montserrat', sans-serif;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width:420px;
+  height:420px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  padding: 16px;
+        text-align: center;
+  margin-top:20px;
+}
+
+.modal-button{
+  border: 2px solid lightgrey;
+  width:140px;
+  height:50px;
+  font-family:'Montserrat', sans-serif;
+  font-size:16px;
+  border-radius:3px;
+  color:grey;
+  background-color:white;
+}
+
+.send-button{
+  margin-left:15px;
+  border:none;
+  background-color:#3A99D8;
+  color:white;
+}
+
+.profile-form-control{
+  width:300px;
+  height:50px;
+  font-size:14px;
+}
+
+.amount{
+  color:black;
+  margin-top:40px;
+  margin-right:64%;
+  font-size:12px solid;
+}
+
+.amount-send-text{
+  color:black;
+  font-size:20px;
+}
+
+.profile-th{
+  color:#ABABAB;
+  font-size:15px;
+  padding-bottom:0px;
+  margin-right:200px;
+}
+
+.profile-td{
+  color:#404040;
+  font-size:20px;
+}
+
+th,
+td {
+  padding: 11px;
+  padding-left: 22px;
+  
+}
+
+th {
+  text-align: left;
+  padding-right:100px;
+}
+th, td{
+  border :none;
+}
+
+.input-symbol {
+  position: relative;
+  padding: 10px;
+}
+
+.input-symbol:before {
+  content: "\0024";
+  position: absolute;
+  left: 28px;
+    top: 26px;
+}
+
+
+/* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/* Making the header responsive in profile page */
+
+@media screen and (max-width: 600px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
